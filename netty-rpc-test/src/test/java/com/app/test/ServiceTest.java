@@ -1,12 +1,11 @@
 package com.app.test;
 
-import com.netty.rpc.client.handler.RpcFuture;
-import com.netty.rpc.client.RpcClient;
-import com.netty.rpc.client.proxy.RpcService;
 import com.app.test.service.HelloService;
 import com.app.test.service.Person;
 import com.app.test.service.PersonService;
-import org.junit.After;
+import com.netty.rpc.client.RpcClient;
+import com.netty.rpc.client.handler.RpcFuture;
+import com.netty.rpc.client.proxy.RpcService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
